@@ -22,4 +22,4 @@ This syllabus will adapt to what people are most interested in.
 |---|---|
 | 1 | [Python 101](Python_101) |
 | 2 | [Functional Programming](Python_101) |
-| 3 | [Pulling and Saving Data](Aug_12) |
+| 3 | [Pulling and Saving Data](Pandas_Ingest_and_Regergitate) |
