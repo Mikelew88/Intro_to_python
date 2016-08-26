@@ -6,7 +6,7 @@ def import_data(url):
 
     return df.ix[:,:7]
 
-def remove_ipl_2993():
+def remove_ipl_2993(df):
     cond1 = df['Dashboard Type'] == "Ibotta Poll Share"
     cond2 = df['Campaign Ids'].str.match('2993+')
     return df[np.invert(cond1 & cond2)]
