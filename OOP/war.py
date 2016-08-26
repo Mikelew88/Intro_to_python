@@ -182,4 +182,6 @@ class Pot:
 ################################################################################
 
 if __name__ == '__main__':
-    main()
+    table = Table(['Mike', 'MJ'])
+    table.deal_cards()
+    table.play_once()
