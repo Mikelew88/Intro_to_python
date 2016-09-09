@@ -9,5 +9,8 @@ def count_characters(string):
     INPUT: STRING
     OUTPUT: DICT (STRING: INT}
     Given a string, return a dictionary where the key is the letter in the string, and the value is an int.
+    ex:
+    INPUT: apple
+    OUTPUT: {'a':1, 'p':2, 'l':1, 'e':1}
     '''
     return pass
