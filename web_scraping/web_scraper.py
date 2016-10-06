@@ -23,6 +23,12 @@ def scrape_page(area, url):
                 print ''
             except:
                 print ''
+
+            try:
+                print day.find("p", {"class":"temp-low"}).getText()
+                print ''
+            except:
+                print ''
         print '=================================================='
 
 
