@@ -11,3 +11,8 @@ Here are some nice examples to get you started:
 And here is a more complicated example that sores data using MongoDB
 
 * https://github.com/Mikelew88/ChefNet/blob/master/Scripts/Web_scrapers/allrecipes_scraper.py
+
+
+Here is a great resource to practice HTML selection:
+
+http://flukeout.github.io/

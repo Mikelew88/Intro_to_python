@@ -35,3 +35,25 @@ def getAllPrimeFactors(n):
     return sorted(ans)
 
 ```
+
+All prime factors
+
+```Python
+def isprime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+
+def findFactors(n):
+    return [i for i in range(2,n/2+1) if n%i==0]
+
+def getAllPrimeFactors(n):
+    ans = []
+    for i in findFactors(n):
+            if isprime(i):
+                ans.append(i)
+            else:
+                getAllPrimeFactors(i)
+    return sorted(ans)
+```
