@@ -16,3 +16,11 @@ And here is a more complicated example that sores data using MongoDB
 Here is a great resource to practice HTML selection:
 
 http://flukeout.github.io/
+
+Here is what to use for Javascript scraping
+
+http://selenium-python.readthedocs.io/getting-started.html
+
+And here is a tutorial for dealing with logins
+
+https://kazuar.github.io/scraping-tutorial/ 
