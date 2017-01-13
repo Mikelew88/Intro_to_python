@@ -24,3 +24,7 @@ add
 
 export AWS_KEY="xxx"
 export AWS_SECRET_KEY="xxx"
+
+### Insta Friender
+
+Scrape, or ping API of, Instagram, and find all people who follow me, but I don't follow, and vice versa.
