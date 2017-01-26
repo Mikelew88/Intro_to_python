@@ -2,18 +2,14 @@ import os
 import pandas as pd
 import psycopg2
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a80a29742329874479a2b9dde2d7c769ee625777
 def pull_data():
     ''' Pull name, gender counts from redshift
 
     input:  (none)
     output: dataframe
     '''
-    con=psycopg2.connect(dbname='ibotta', host=os.environ['REDSHIFT_ENDPOINT'],
-    port='5439', user=os.environ['REDSHIFT_USER'], password=os.environ['REDSHIFT_PASS'])
+    con=psycopg2.connect(dbname=os.environ['REDSHIFT_NAME'], host=os.environ['REDSHIFT_ENDPOINT'],
+    port=os.environ['REDSHIFT_PORT'], user=os.environ['REDSHIFT_USER'], password=os.environ['REDSHIFT_PASS'])
 
     query = '''
     select first_name, gender, sum(1) as n, case when gender = 'M' then .788 else .212 end as weight
