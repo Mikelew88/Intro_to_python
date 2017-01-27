@@ -40,9 +40,19 @@ def get_iss_astros():
 
     Exercise:
 
-    """
+    print the astronauts names and other stuff about them
 
-    pass
+    """
+    response = requests.get("http://api.open-notify.org/astros.json")
+
+    json = response.json()
+
+    print 'Number of austronauts: {0}'.format(json['number'])
+
+    people = json['people']
+
+    for person in people:
+        print person['name']
 
 
 if __name__ == '__main__':
