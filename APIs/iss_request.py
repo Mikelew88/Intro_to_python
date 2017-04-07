@@ -57,17 +57,19 @@ def get_iss_astros():
 
 if __name__ == '__main__':
     # get_iss_now()
+    get_iss_astros()
 
-    ny_coordinates = {"lat": 40.71, "lon": -74}
-
-    somewhere_data = get_iss_somewhere(ny_coordinates)
-
-    somewhere_json = somewhere_data.json()
-
-    print somewhere_data
-    print somewhere_json['response']
-
-    data_headers = somewhere_data.headers
-
-    print data_headers
-    print data_headers['content-type']
+    # ny_coordinates = {"lat": 40.71, "lon": -74}
+    #
+    # somewhere_data = get_iss_somewhere(ny_coordinates)
+    #
+    # somewhere_json = somewhere_data.json()
+    #
+    # print somewhere_data
+    # print somewhere_json['response']
+    #
+    # data_headers = somewhere_data.headers
+    #
+    # print data_headers
+    # print data_headers['content-type']
+    #

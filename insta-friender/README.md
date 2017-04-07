@@ -2,7 +2,7 @@
 
 1. Code wars problem (20 mins)
 
-1. Rs_tools overview and environmental variables
+1. Rs_tools overview and environmental variables (DEPRICATED)
 
 1. Insta Friender
 
@@ -16,7 +16,7 @@ def printer_error(s):
 
 ```
 
-### Rs_tools
+### Rs_tools (DEPRACATED)
 
 In .zshrc or .bash_profile
 
